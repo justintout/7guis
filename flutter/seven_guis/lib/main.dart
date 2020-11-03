@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:seven_guis/pages/temperature_converter.dart';
 
+import 'pages/circle_drawer.dart';
 import 'pages/crud.dart';
 import 'pages/flight_booker.dart';
 import 'pages/main.dart';
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         '/flight_booker': (_) => FlightBookerPage(),
         '/timer': (_) => TimerPage(),
         '/crud': (_) => CrudPage(),
+        '/circle_drawer': (_) => CircleDrawerPage(),
       },
     );
   }
